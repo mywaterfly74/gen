@@ -11,8 +11,6 @@ namespace Gen
     {
         public readonly List<T> ValuesOfBinaryHeap = new List<T>();
                 
-        public BinaryHeap() { }
-
         public int HeapSize
         {
             get
@@ -20,7 +18,7 @@ namespace Gen
                 return ValuesOfBinaryHeap.Count();
             }
         }
-        public virtual void Insert(T value)
+        public void Insert(T value)
         {
             if (ValuesOfBinaryHeap.Contains(value))
             {
@@ -46,7 +44,7 @@ namespace Gen
         {
             return (a > b);
         }
-        public virtual T Extract()
+        public T Extract()
         {
             T ExtractedValue = ValuesOfBinaryHeap[0];
             ValuesOfBinaryHeap[0] = ValuesOfBinaryHeap[HeapSize - 1];
@@ -54,7 +52,7 @@ namespace Gen
             Streamline(0);
             return ExtractedValue;
         }
-        public virtual void Streamline(int i)
+        public void Streamline(int i)
         {
             int LeftChild;
             int RightChild;
