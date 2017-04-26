@@ -1,0 +1,6 @@
+c:\users\computer\documents\visual studio 2017\Projects\Gen\Gen\bin\Debug\Gen.exe.config
+c:\users\computer\documents\visual studio 2017\Projects\Gen\Gen\bin\Debug\Gen.exe
+c:\users\computer\documents\visual studio 2017\Projects\Gen\Gen\bin\Debug\Gen.pdb
+c:\users\computer\documents\visual studio 2017\Projects\Gen\Gen\obj\Debug\Gen.csprojResolveAssemblyReference.cache
+c:\users\computer\documents\visual studio 2017\Projects\Gen\Gen\obj\Debug\Gen.exe
+c:\users\computer\documents\visual studio 2017\Projects\Gen\Gen\obj\Debug\Gen.pdb
